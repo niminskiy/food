@@ -1,9 +1,9 @@
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', function() {
   const tabs = require('./modules/tabs'),
         cards = require('./modules/cards'),
         forms = require('./modules/forms'),
         slider = require('./modules/slider'),
-        calculator = require('./modules/calculator'),
+        calc = require('./modules/calc'),
         modal = require('./modules/modal'),
         timer = require('./modules/timer');
 
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
   cards();
   forms();
   slider();
-  calculator();
+  calc();
   modal();
   timer();
 });
