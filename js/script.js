@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', function() {
   forms('form', modalTimerId);
   calc();
   modal('[data-modal]', '.modal', modalTimerId);
-  timer('.timer', '2020-11-30');
+  timer('.timer', '2020-12-10');
   slider({
     container: '.offer__slider',
     slide: '.offer__slide',
